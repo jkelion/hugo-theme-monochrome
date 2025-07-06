@@ -1,0 +1,9 @@
+"tags" = "Tags"
+"recent_posts" = "Articles récents"
+"toc" = "Sommaire"
+"no_page_under_resources" = 'Aucune page présente dans {{ .resources_path }}. Veuillez spécifier « {{ .resources_name }} » correctement et vérifier l’existence d’articles dans ce répertoire.'
+"resources_not_found" = 'Ressources introuvables. Vous devez spécifier « {{ .resources_name }} » correctement.'
+"search" = "Rechercher des articles"
+"changelogs" = "Notes de version"
+"dark_mode_btn_tooltip" = "Passer en mode sombre"
+"light_mode_btn_tooltip" = "Passer en mode clair"
