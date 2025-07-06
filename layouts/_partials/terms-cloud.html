@@ -2,19 +2,11 @@
 {{- $sortby := .sortby | default "count" -}}
 {{- $order := .order | default "asc" -}}
 {{- with $terms -}}
-<<<<<<< Updated upstream:layouts/_partials/terms-cloud.html
 {{- if eq $sortby "count" -}}
     {{- $terms = sort . "Count" $order -}}
 {{- else if eq $sortby "alphabetical" -}}
     {{- $terms = sort . "Page.Title" $order -}}
 {{- end -}}
-=======
-    {{- if eq $sortby "count" -}}
-        {{- $terms = sort . "Count" $order -}}
-    {{- else if eq $sortby "alphabetical" -}}
-        {{- $terms = sort . "Page.Title" $order -}}
-    {{- end -}}
->>>>>>> Stashed changes:layouts/partials/terms-cloud.html
 
     {{ $fontSmall := 0.875 }}
     {{ $fontBig := 1.6 }}
